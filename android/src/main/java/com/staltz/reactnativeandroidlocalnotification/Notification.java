@@ -10,7 +10,7 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.net.Uri;
 import android.app.NotificationChannel;
 
@@ -20,7 +20,7 @@ import java.net.URL;
 import com.google.gson.Gson;
 
 import android.util.Base64;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.text.Html;
 import android.util.Log;
 import android.graphics.Color;
